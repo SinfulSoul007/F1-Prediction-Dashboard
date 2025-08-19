@@ -1,0 +1,15 @@
+name: Retrain Model
+on:
+  schedule:
+    - cron: "0 3 * * MON"  # Weekly on Monday at 3 AM UTC
+  workflow_dispatch: {}
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger retrain
+        env:
+          API: ${{ vars.API_BASE }}
+          TOKEN: ${{ secrets.CRON_TOKEN }}
+        run: curl -fsS -X POST -H "Authorization: Bearer $TOKEN" "$API/cron/retrain"

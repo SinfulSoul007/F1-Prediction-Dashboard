@@ -1,0 +1,59 @@
+{
+  "temperature_effects": {
+    "optimal_range_c": [20, 25],
+    "hot_threshold_c": 30,
+    "cold_threshold_c": 15,
+    "performance_multipliers": {
+      "hot": 0.95,
+      "optimal": 1.0,
+      "cold": 0.98
+    }
+  },
+  "rain_effects": {
+    "dry_threshold_mm": 0.1,
+    "light_rain_threshold_mm": 2.0,
+    "heavy_rain_threshold_mm": 5.0,
+    "chaos_multipliers": {
+      "dry": 1.0,
+      "light_rain": 1.3,
+      "heavy_rain": 2.0
+    },
+    "wet_weather_specialists": {
+      "HAM": 1.15,
+      "VER": 1.12,
+      "RUS": 1.08,
+      "NOR": 1.05
+    }
+  },
+  "wind_effects": {
+    "threshold_kph": 25,
+    "high_wind_penalty": 0.02
+  },
+  "track_specific_modifiers": {
+    "monaco": {
+      "qualifying_importance": 1.3,
+      "overtaking_difficulty": 0.9
+    },
+    "monza": {
+      "slipstream_effect": 1.2,
+      "power_unit_importance": 1.15
+    },
+    "spa": {
+      "rain_probability_multiplier": 1.4,
+      "sector_variability": 1.1
+    },
+    "singapore": {
+      "heat_effect_multiplier": 1.2,
+      "humidity_penalty": 0.95
+    },
+    "silverstone": {
+      "changeable_conditions": 1.3
+    }
+  },
+  "chaos_mode_settings": {
+    "safety_car_probability_multiplier": 1.5,
+    "dnf_probability_multiplier": 1.3,
+    "strategy_variance_multiplier": 1.4,
+    "random_noise_std": 0.05
+  }
+}

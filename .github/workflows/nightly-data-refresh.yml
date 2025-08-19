@@ -1,0 +1,20 @@
+name: Nightly Data Refresh
+on:
+  schedule:
+    - cron: "0 2 * * *"  # Daily at 2 AM UTC
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Backfill seasons
+        env:
+          API: ${{ vars.API_BASE }}
+          TOKEN: ${{ secrets.CRON_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"years":[2020,2021,2022,2023,2024,2025]}' \
+            "$API/cron/ingest"

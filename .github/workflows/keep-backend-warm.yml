@@ -1,0 +1,15 @@
+name: Keep Backend Warm
+on:
+  schedule:
+    - cron: "*/14 * * * *"  # Every 14 minutes
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping /cron/warmup
+        env:
+          API: ${{ vars.API_BASE }}
+          TOKEN: ${{ secrets.CRON_TOKEN }}
+        run: curl -fsS -H "Authorization: Bearer $TOKEN" "$API/cron/warmup" || true

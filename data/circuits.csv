@@ -1,0 +1,24 @@
+circuit_key,name,locality,country,latitude,longitude,type,distance_km,laps,drs_zones,altitude_m
+bahrain,Bahrain International Circuit,Sakhir,Bahrain,26.0325,50.5106,permanent,5.412,57,3,7
+jeddah,Jeddah Corniche Circuit,Jeddah,Saudi Arabia,21.6319,39.1044,street,6.174,50,3,15
+albert_park,Albert Park Circuit,Melbourne,Australia,-37.8497,144.968,street,5.278,58,4,12
+suzuka,Suzuka International Racing Course,Suzuka,Japan,34.8431,136.5407,permanent,5.807,53,2,45
+shanghai,Shanghai International Circuit,Shanghai,China,31.3389,121.2197,permanent,5.451,56,2,5
+miami,Miami International Autodrome,Miami,United States,25.9581,-80.2389,street,5.41,57,3,2
+imola,Autodromo Enzo e Dino Ferrari,Imola,Italy,44.3439,11.7167,permanent,4.909,63,2,37
+monaco,Circuit de Monaco,Monte Carlo,Monaco,43.7347,7.42056,street,3.337,78,1,42
+barcelona,Circuit de Barcelona-Catalunya,Montmeló,Spain,41.57,2.26111,permanent,4.675,66,2,109
+montreal,Circuit Gilles-Villeneuve,Montreal,Canada,45.5,-73.5228,street,4.361,70,1,13
+red_bull_ring,Red Bull Ring,Spielberg,Austria,47.2197,14.7647,permanent,4.318,71,3,678
+silverstone,Silverstone Circuit,Silverstone,United Kingdom,52.0786,-1.01694,permanent,5.891,52,2,153
+hungaroring,Hungaroring,Budapest,Hungary,47.5789,19.2486,permanent,4.381,70,1,161
+spa,Circuit de Spa-Francorchamps,Spa,Belgium,50.4372,5.97139,permanent,7.004,44,3,401
+zandvoort,Circuit Park Zandvoort,Zandvoort,Netherlands,52.3888,4.54092,permanent,4.259,72,3,6
+monza,Autodromo Nazionale di Monza,Monza,Italy,45.6156,9.28111,permanent,5.793,53,3,162
+singapore,Marina Bay Street Circuit,Singapore,Singapore,1.2914,103.864,street,5.063,61,3,18
+cota,Circuit of the Americas,Austin,United States,30.1328,-97.6411,permanent,5.513,56,2,161
+mexico,Autódromo Hermanos Rodríguez,Mexico City,Mexico,19.4042,-99.0907,permanent,4.304,71,3,2229
+interlagos,Autódromo José Carlos Pace,São Paulo,Brazil,-23.7036,-46.6997,permanent,4.309,71,2,760
+vegas,Las Vegas Strip Circuit,Las Vegas,United States,36.1147,-115.1728,street,6.12,50,2,610
+losail,Losail International Circuit,Lusail,Qatar,25.4892,51.4542,permanent,5.38,57,2,9
+yas_marina,Yas Marina Circuit,Abu Dhabi,United Arab Emirates,24.4672,54.6031,permanent,5.281,58,2,3
